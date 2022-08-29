@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Quiz App</title>
+  </head>
+  <body>
+    <div class="quiz-app">
+      <div class="info">
+        <div class="category">Category: <span>HTML</span></div>
+        <div class="qsts-count">Questions Count: <span></span></div>
+      </div>
+      <div class="qst">
+        <h2></h2>
+      </div>
+      <div class="answers">
+        <div class="answer">
+          <input type="radio" name="answers" id="ans-1" />
+          <label for="ans-1"></label>
+        </div>
+        <div class="answer">
+          <input type="radio" name="answers" id="ans-2" />
+          <label for="ans-2"></label>
+        </div>
+        <div class="answer">
+          <input type="radio" name="answers" id="ans-3" />
+          <label for="ans-3"></label>
+        </div>
+        <div class="answer">
+          <input type="radio" name="answers" id="ans-4" />
+          <label for="ans-4"></label>
+        </div>
+      </div>
+      <button class="submit">Submit Answer</button>
+      <div class="bullets">
+        <div class="spans">
+        </div>
+        <div class="counter"><span id="mins">00</span>:<span id="secs">15</span></div>
+    </div>
+    <div class="result">
+        <span></span> You answered <span class="mark"></span> from <span class="from"></span>.
+    </div>
+    </div>
+
+
+    <script src="main.js"></script>
+  </body>
+</html>
